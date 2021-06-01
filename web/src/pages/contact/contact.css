@@ -1,0 +1,42 @@
+.contactDiv{
+    width:60%;
+    height: 500px;
+    margin:0 auto;
+    max-width: 800px;
+}
+
+
+.nouscontat {
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    padding-bottom:15px
+}
+
+.btnEnvoiContact{  
+    border: 2px solid #e31B28;
+    width: max-content;
+    padding: 5px 20px;
+    background-color: #e31B28;
+    color: white;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive ; 
+    border-radius: 40px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px){
+    .contactDiv {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:577px){
+    .footercontactpage{
+        padding-top:120px
+    }
+}

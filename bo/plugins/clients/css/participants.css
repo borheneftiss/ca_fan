@@ -1,0 +1,155 @@
+
+
+@media only screen and (max-width: 1919px) and (min-width: 1600px)
+{
+	body:not(.wp-customizer) #wpbody-content	{ width: 80%!important; }
+
+
+}
+.spinner {
+
+    background: url(../images/loader.gif) no-repeat;
+    background-size: auto auto;
+    display: block !important;
+    float: none;
+    vertical-align: middle;
+    opacity: 0.9;
+    visibility:visible;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.spinner-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: white;
+z-index: 999999;
+opacity:0.4;
+}
+.dialogajax {
+    background-color: rgba(0, 0, 0, .8);
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    width: 900px;
+
+    margin-top: -10px;
+}
+.loaderajax {
+    background-image: url(http://bo-pmi.chifco.com/wp-content/uploads/2018/08/logoyou.1016b721.png);
+    position: relative;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 23%;
+}
+.modal-content{
+
+	background:white!important;
+}
+
+.btn, .btn-large, .btn-flat{
+	text-transform: initial;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled
+{
+	background: unset!important;
+}
+.update-nag
+{
+	display:none!important;
+}
+	#adminmenu .collapsible-header
+{
+	background:unset!important;
+	border-bottom:unset!important;
+}
+	.modal
+	{
+		background-color:white!important;
+	}
+
+	.pagination
+	{
+		float:right;
+	}
+	#participants-group_filter
+	{
+		       width: 30%;
+           position: absolute;
+          top: 30px;
+          right: 7%;
+	}
+	#participants-group_filter input
+	{
+	  height:10%;
+
+	}
+	#participants-group_length
+	{
+		    display: none;
+            width: inherit;
+	}
+	#participants-group_length label select
+	{
+		    display: inline-block;
+            width: 60%;
+	}
+	#participants-group{
+		    background-color: unset!important;
+	}
+	.select-dropdown li span
+	{
+		color:black;
+	}
+
+	 div.container {
+
+			    max-width:760px;
+				margin: 100px auto;
+			}
+			div.header {
+			    margin: 100px auto;
+			    line-height:30px;
+			    max-width:760px;
+			}
+			body {
+			    background: #f7f7f7;
+			    color: #333;
+			    /*font: 90%/1.45em "Helvetica Neue",HelveticaNeue,Verdana,Arial,Helvetica,sans-serif !important*/;
+			}
+
+
+
+table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 30px;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+    cursor: pointer;
+    position: relative;
+}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:before {
+    right: 1em;
+    content: "\2191";
+}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
+    position: absolute;
+    bottom: 11px;
+    display: block;
+    opacity: 0.3;
+    font-size: 1.3em;
+}
+table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:after {
+    opacity: 1;
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+    right: 0.5em;
+     content: "\2193";
+}

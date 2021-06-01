@@ -1,0 +1,414 @@
+.button-badge {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  position: relative;
+  display: inline-block;
+  border-radius: .2rem;
+  transition: all ease 0.4s;
+}
+
+/*.button-badge:hover {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}*/
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: 6px;
+  font-size: .8em;
+  background: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 39px;
+  text-align: center;
+}
+
+.fas {
+  color: white;
+  font-size: 25px;
+}
+
+.notiftext{
+  height: auto;
+  width: 350px;
+}
+
+.newnotif{
+  margin-left: auto;
+  background: #e31b28;
+  border-radius: 25px;
+  width: 100px;
+  text-align: center;
+  margin-right: 42px;
+}
+
+.Notifborder{
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;  
+}
+
+.contenuNotif{
+  width: 80%;
+  margin: 0 auto;
+}
+.notifStyle{
+  text-transform: uppercase;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 4px;
+}
+
+.paragNotif{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.NotifNewJeux{
+  font-family: Lato;
+  font-size: 14px;
+  padding-bottom: 15px;
+  font-weight: 300;
+}
+
+
+.Back{
+  background-size: cover;
+  background-image: url("../../assets/header/header_test1.png");
+  height:203px;
+}
+
+.imgson{
+  width:35px;
+  top: 30px;
+  position: absolute;
+  right: 19px;
+}
+
+.divmenu{
+  /*display: flex;*/
+  margin-left:auto;
+  padding-right: 65px;
+  margin-top: 35px;
+}
+.itemMenu {
+  font-family: 'Amatic SC', cursive;
+  color:white;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  font-weight:400;
+  text-transform: uppercase
+}
+
+.itemMenuMobile {
+  font-family: Lato;
+  color:white;
+  font-size: 19px;
+  text-decoration: none;
+  margin: 20px;
+  font-weight:400;
+  text-transform: uppercase
+}
+
+.itemMenudiff {
+  font-family: 'Amatic SC', cursive;
+  color:#E31B28;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  font-weight:600;
+  text-transform: uppercase
+}
+
+.active{
+  font-weight: bold;
+  font-size: 25px
+}
+   
+.divResauxSociaux{
+  display: flex;
+  width: fit-content;
+  margin:0 auto;
+  padding-top: 8px; 
+}
+
+.divResauxSociauxrouge{
+  display: flex;
+  width: fit-content;
+  margin:0 auto;
+  padding-top:8px 
+}
+
+.divcaf{
+  line-height: 0px;
+  width:fit-content;
+  text-decoration: none;
+  padding-top:24px
+}
+
+.cafarab{
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: 'Tajawal', sans-serif;
+}
+.cafarabrouge{
+  color: #E31B28;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.logocaposition{
+  width: fit-content;
+  margin:0 auto
+}
+
+.HeaderBack{
+  position:absolute;
+  height:100px;
+  width:100%;
+  background-color: #E31B28;
+}
+.HeaderBack:after {
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  left: 0;
+  top: 100px;
+  content: "";
+  height: 0;
+  border-left: 1591px solid #E31B28;
+  border-bottom: 140px solid transparent;
+}
+
+.ContentHader{
+  position:absolute;
+  z-index:2;
+  top: 15px;
+  display: flex;
+  width: 100%;
+}
+
+.ResauxSociauxPos{
+  margin-right: 10px;
+  align-self: center; 
+}
+
+.clubStyle{
+  color: white;
+  font-family: Lato;
+  margin-right: 10px;
+  font-size: 11px
+}
+
+.divMenuquiz{
+  padding-left: 20px;
+  display: flex
+}
+
+.backgroundhead{
+  background:#E31B28;
+  height:80px;
+  position:fixed;
+  top: 0;
+  width:100%;
+  z-index: 2
+}
+.backgroundheadwhite{
+  background:white;
+  height:80px;
+  position:fixed;
+  top: 0;
+  width:100%;
+  z-index: 2;
+  box-shadow: 0px 5px 5px #8080806e;
+}
+.pagecourante{
+  text-align: center;
+  padding-top: 25px;
+}
+.stylepagecourante{
+  color:white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+/*menu burher style*/
+.burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 9999;
+  padding: 10px;
+  border-radius: 25px;
+  /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
+  display: none
+}
+
+.burger-menu .bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+#whithoutheader > .burger-menu .bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #E31B28;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+#whithoutheader > .burger-menu .bar2 {
+  width: 25px;
+  height: 3px;
+  background-color: #E31B28;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+#whithoutheader > .burger-menu .bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #E31B28;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+#whithoutheader > .burger-menu.open .bar1 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+#whithoutheader > .burger-menu.open .bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.backgroundhead > .burger-menu .bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.burger-menu.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.burger-menu.open .bar2 {
+  opacity: 0;
+}
+
+.burger-menu.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.backgroundhead{
+  display: none
+}
+.backgroundheadwhite{
+  display: none
+}
+/* Menu */
+
+.MenuMobile {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0px;
+}
+.MenuMobile ul {
+  position: relative;
+  top: 0px;
+  font-size: 24px;
+  padding: 0px;
+}
+.MenuMobile li {
+  list-style: outside none none;
+  margin: 10px 0px;
+  padding: 0;
+  cursor: pointer;
+}
+.MenuMobile li:hover {
+  color: #ff0000;
+}
+
+.positionmenumobile{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -135px;
+}
+
+.footermobileweb{
+  text-align:center;
+  left:0;
+  right:0;
+  position:fixed;
+  bottom:20px
+}
+
+.footermobileweb > div > div > img{
+  width:120px
+}
+
+.LogoutStyle{
+  width:20px;
+  cursor: pointer;
+}
+
+.iconNotifMobile{
+  margin-top: -44px;
+  margin-left: auto;
+  width: fit-content;
+  padding-right: 4%;
+}    
+
+
+@media screen and (max-width:768px){
+  .Back{
+    display:none
+  }
+  .backgroundhead{
+    display: block
+  }
+  .backgroundheadwhite{
+    display: block
+  }
+  .burger-menu,
+.burger-menu.open {
+  display: block
+}
+.divMenuquiz{
+  display: none
+}
+.imgson{
+  width:35px;
+  top: 25px;
+  position: absolute;
+  right: 19px;
+}
+}
+
+
+.Headertxt{
+  color : #E31B28;
+  font-size: 10px;
+  margin-right: 10px;
+}

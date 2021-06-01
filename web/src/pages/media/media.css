@@ -1,0 +1,143 @@
+.flex-container-media {
+    display: flex;
+    /*background-color: DodgerBlue;*/
+    justify-content: center;
+    flex-direction: row;
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+ .flex-container-media > div {
+    /*background-color: #f1f1f1;*/
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .columnmedia{
+    display: flex;
+    flex-direction: column;
+    /*background-color: red;*/
+  }
+  .columnmedia > div {
+    /*background-color: green;*/
+    width: 100%;
+    text-align: center;
+  }
+
+.descimgMedia{
+    margin-top: -40px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 57px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.TitleimgMedia{
+    margin-top: -40px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 57px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.titlesection{
+  color: #E31B28;
+  font-family: 'Lato', sans-serif;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.slick-slider{
+  padding-top:25px
+}
+
+#interviewtitle{
+  /*padding-right: 18%*/
+  margin-left: auto;
+  padding-right: 8px;
+}
+
+.imgSlidSize{
+  /*width: 95%;
+  margin: 7px;*/
+  width: 100%;
+  padding: 6px;
+}
+
+.footermediapos{
+  position:relative;
+  margin-top: 40px
+}
+
+.SliderStyle{
+  padding-top: 13px
+}
+
+
+@media screen and (max-width:1024px){
+  .flex-container-media {
+    width: 100%;
+  }
+  #interviewtitle{
+    padding-right: 10px
+  }
+  .imgSlidSize{
+    margin: unset;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  #interviewtitle{
+    padding-top: 110px;
+    padding-right: unset
+  }
+}
+
+@media screen and (max-width:576px){
+  .flex-container-media {
+    flex-direction: column;
+    padding-right: 22px;
+  }
+  #sliderphotos{
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (width:1024px) and (height:768px){
+  .footermediapos > .divfooter {
+    padding-bottom: 211px;
+  }
+}
+@media screen and (width:768px) and (height:1024px){
+  .footermediapos > .divfooter {
+    padding-bottom: 464px;
+  }
+  #sliderphotos{
+    padding-bottom: 430px;
+  }
+}
+
+@media screen and (width:1024px) and (height:1366px){
+  .footermediapos > .divfooter{
+    padding-bottom: 807px;
+  }
+}
+
+@media screen and (width:1366px) and (height:1024px){
+  .footermediapos > .divfooter{
+    padding-bottom: 470px;
+  }
+  .SliderStyle{
+    padding-bottom: 423px
+  }
+}

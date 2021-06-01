@@ -1,0 +1,646 @@
+body{
+    background-image: unset ;
+    
+  }
+.PointsTxt{
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 0px;
+    line-height: 45px;   
+  }
+.pointsText{
+    font-family: 'Amatic SC', cursive;
+    color:black;
+    font-weight: 700;
+    font-size: 42px;
+}
+.gameText{
+    font-size: 35px;
+    font-weight: 600;
+    color:#e31B28;
+    font-family: 'Amatic SC', cursive;
+}
+.btnsDiv{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+.histImg{
+    width: 24px;
+}
+.convertImg{
+    width: 30px;
+}
+.donImg{
+    width: 35px;
+}
+.boderBtn{
+    border: 2px dashed #e31B28 !important;
+    border-radius: 190px !important;
+    width: 190px;
+    padding-top: 18px;
+    height: 190px;
+}
+.activeBtn{
+    background-color: #e31B28;
+    color : white
+}
+.NotactiveBtn{
+    background-color: white;;
+    color : black
+}
+.btnPoints{
+    border: 1px solid white !important;
+    border-radius: 150px !important;
+    width: 150px;
+    height: 150px;
+    font-weight : 400 ;
+    line-height: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+}
+.SliderStyle{
+    width: 300px;
+    margin: 50px auto;
+}
+.historiquePoints{
+    width:100%;
+    background-image: url("../../assets/mes_points/gray1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -40px;
+}
+.whitebg{
+    height: 190px;
+}
+.historiqueTextShadow{
+    color: #e31B28;
+    text-transform: uppercase;
+    font-family: oswald;
+    opacity: .2;
+    font-size: 57px;
+    text-align: center;
+    line-height: 42px;
+}
+.convertirtxtOne{
+    font-weight: 400;
+}
+.convertirtxtTwo{
+    font-weight: 700;
+    color:#e31B28
+}
+
+.transactions{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+    max-width: 1100px;
+}
+.donTextOne{
+    font-family: BebasKai;
+    line-height: 48px;
+    font-size: 25px;
+    color: #282c34;
+}
+.donTextTwo{
+    font-size: 18px;
+    line-height: 0px;
+    color: #666;
+    font-family: BebasKai;
+   
+}
+.donTextThree{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 80px;
+    font-family: BebasKai;
+    color: #e31B28;
+}
+.historiqueText{
+    color: #e31B28;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+li {
+    margin-left: 0px;
+}
+.convertirPts{
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+}
+.historiqueTextBold{
+    color: #838080;
+    font-family: BebasKai;
+    text-align: center;
+    line-height: 53px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.historiqueTextLight{
+    color: #393939;
+    font-family: BebasKai;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.convertirContent {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    z-index: 1;
+    top: 60px;
+    text-align: center;
+}
+.btnBlock{
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+}
+.heat{
+    background-image: url('../../assets/mes_points/heart.png');
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin: 0 auto;
+}
+.gridConvertir{
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    max-width: 900px;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 1;
+}
+.ColConvertir{
+    width: 22.6%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 12px !important;
+    height: 160px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: .3s; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.donPts{
+    width:100%;
+    background-image: url("../../assets/mes_points/gray2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.donContent {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    z-index: 1;
+    top: 60px;
+    text-align: center;
+}
+/* Hide HTML5 Up and Down arrows. */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+/*input[placeholder], [placeholder], *[placeholder] {
+    color: #e31B28 !important;
+}*/
+/*::-webkit-input-placeholder { */
+    /* WebKit, Blink, Edge */
+   /* color:    #e31B28;
+}*/
+/*:-moz-placeholder { */
+    /* Mozilla Firefox 4 to 18 */
+   /*color:    #e31B28;
+ 
+}*/
+/*::-moz-placeholder { 
+    /* Mozilla Firefox 19+ */
+  /* color:    #e31B28;
+   opacity:  1;
+}*/
+/*:-ms-input-placeholder { 
+    /* Internet Explorer 10-11 */
+   /*color:    #e31B28;
+}*/
+/*::-ms-input-placeholder { 
+    /* Microsoft Edge */
+   /*color:    #e31B28;
+}*/
+
+/*::placeholder { 
+    /* Most modern browsers support this now. */
+   /*color:    #e31B28;
+}*/
+.btnpnt{
+    background-color: white;
+    border: 1px solid white;
+    justify-content: center;
+    width: max-content;
+    padding: 8px 20px;
+    min-width: 168px;
+    min-height: 54px;
+    color : white;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 30px auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16), 0 2px 2px 0 rgba(0,0,0,0.12);
+    display: flex;
+}
+.btnconfirm{  
+    border: 2px solid #e31B28;
+    width: max-content;
+    padding: 5px 25px;
+    color: white;
+    background-color: #e31B28;
+    font-size: 15px;
+    word-spacing: 3px;
+    border-radius: 40px;
+    margin: 30px auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16), 0 2px 2px 0 rgba(0,0,0,0.12);
+    cursor: pointer;
+}
+.incrementDec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pointNB{
+    font-family: oswald;
+    font-weight: bold;
+    color: #e31B28;
+    font-size: 28px;
+    padding-top: 120px;
+
+}
+.pointsNB{
+    margin: 0px;
+    padding: 0 4px;
+    font-family: oswald;
+    font-weight: bold;
+    color: #e31B28;
+    font-size: 28px;
+}
+.rc-slider-tooltip-inner{
+    background-color: #e31B28 !important
+}
+.rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow{
+    border-top-color: #e31B28 !important
+}
+.pointsNB>span{
+    font-weight: 600;
+    font-size: 13px;
+}
+.typeDon{
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    justify-content: space-between;
+    margin-top: 40px;
+    max-width: 1100px;
+    position: relative;
+    z-index: 1;
+}
+.btndon {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16), 0 2px 2px 0 rgba(0,0,0,0.12);
+    width: max-content;
+    width: 38%;
+    background-color: white;
+    color: #393939;
+    font-size: 15px;
+    border-radius: 20px !important; 
+    margin: 0 auto;
+    cursor: pointer;
+}
+.inputDT{
+    border: none;
+    border-bottom: 0.5px solid #999;
+    text-align: center;
+    max-width: 90px;
+    max-height: 30px;
+}
+.activespontaneous{
+    background-color:#e31B28 !important;
+    color: white !important;
+}
+.NotActivespontaneous{
+    background-color: white;
+    color: #393939;
+}
+/*.rc-slider-handle-click-focused
+{
+background-image: url("../../assets/quiz/header/logoCA.png") !important; 
+    background-size: cover !important; 
+    background-repeat: no-repeat !important; 
+    height: 50px  !important; 
+    width: 50px  !important; 
+   
+} */
+.rc-slider-mark-text{
+    color: black ! important;
+}
+.rc-slider-handle:focus {
+    border-color: none ! important;
+
+}
+.MuiPaper-elevation1-37 {
+    box-shadow: none  !important; 
+}
+.MuiPaper-root-34 {
+    background-color: transparent !important; 
+}
+.MuiExpansionPanelSummary-content-65 {
+    justify-content: center !important; 
+}
+.MuiRadio-colorSecondary-103.MuiRadio-checked-100 {
+    color: #e31B28 !important;
+}
+.MuiExpansionPanelSummary-content-65 {
+    margin: 0px 0 !important;
+}
+div.containerb {
+    margin: 30px auto;
+    width: 70%;
+    height: 200px;
+
+   }
+   
+div.left {
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 6px;    
+    min-height: 48px;
+   }
+.Projectlist
+{
+    background-image: unset;
+}
+.Projectform{
+    width: 100%;
+    max-height: 115px;
+    overflow-y: auto;
+   
+}
+.modeform{
+    width: 100%;
+}
+div.right {
+    font-weight: bold;
+    float: right;
+    text-transform: uppercase;
+   
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: #e31B28 !important;
+}
+.errorDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px
+}  
+.notValid
+{ 
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle
+}
+.errorStyle 
+{   color: #393939;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/**/
+.wrap-collabsible {
+    margin-bottom: 1.2rem 0;
+  }
+  
+  input[type='checkbox'] {
+    display: none;
+  }
+  
+  .lbl-toggle {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+    padding: 1rem;
+    
+    color: #393939;
+    cursor: pointer;
+  
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+  }
+  
+  .lbl-toggle:hover {
+    color: #393939;
+  }
+  
+  .lbl-toggle::after {
+    content: ' ';
+    display: inline-block;
+    margin-left: 2px;
+    border-top: 7px solid #393939;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+  
+    transition: transform .2s ease-out;
+  }
+  
+  .toggle:checked + .lbl-toggle::after {
+    transform: rotate(180deg) translateX(-3px);
+  }
+  
+  .collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 350px;
+  }
+  
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .collapsible-content .content-inner {
+   
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: .5rem 1rem;
+  }
+
+ 
+/**/
+@media screen and (max-width:768px) {
+    .lbl-toggle {
+        font-size: 13px
+    }
+    .Projectform{
+    height: 60px;
+    overflow-y: auto;
+    }
+    .errorStyle {
+        font-size: 12px;
+    }
+    .SliderStyle {
+        width: 75%;
+    }
+    div.containerb { width: 90%; }
+    div.left {
+        float: unset;
+       }
+       
+    div.right {
+        float: unset;
+       }
+    .PointsTxt{
+        padding-top: 95px;
+      }
+    .rc-steps-label-vertical .rc-steps-item-content{
+        width: 130px !important;
+    }
+    .donPts {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .donTextOne{
+        line-height: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .donTextTwo{
+        line-height: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-family: BebasKai;
+        font-size: 15px;
+    }
+    .donTextThree{
+        line-height: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .historiqueTextShadow {
+        font-size: 37px;
+        line-height: 32px;
+    }
+    .historiqueText{
+        font-size: 20px;
+    }
+    .historiqueTextBold {
+        line-height: 28px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .historiquePoints {
+       
+        margin-top: -60px;
+    }
+    .historiqueTextLight {
+        font-size: 16px;
+        line-height: 22px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .convertirPts {
+       margin-top: 50px;
+    }
+    .whitebg {
+        height: 170px;
+    }
+    .btnsDiv{
+        display: none;        
+    }
+    .pointsText {
+        font-size: 25px
+    }
+    .gameText {
+        font-size: 22px;
+    }
+    .ColConvertir{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 47%;
+      /*z-index: 9999;*/
+      margin-bottom: 10px; 
+    }
+    .gridConvertir{
+      padding-bottom: 60px;
+      width: 85%;
+      padding-top: 40px;
+    }
+    .btndon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      width: 90%;
+      margin-bottom: 20px; 
+    }
+    .typeDon {
+       width: 90%;
+       flex-direction: column;
+    }
+    .btnconfirm {
+       font-size: 16px;
+    }
+    
+}

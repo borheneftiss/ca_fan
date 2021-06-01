@@ -1,0 +1,265 @@
+.formAlign input[placeholder], [placeholder], *[placeholder] {
+    color:unset!important;
+}
+
+.ImgBack{
+    background-image: url("../../bg.png");
+    background-size: cover;
+    position: fixed;
+    top:0;
+    width:100%;
+    height:100vh;
+} 
+
+.messageNotif{
+    margin-left:35;
+    color: red;
+    font-family: Roboto;
+    font-size: 12px
+}
+.messageNotifSuccess{
+    margin-left:35;
+    color: green;
+    font-family: Roboto;
+    font-size: 12px
+}
+
+.posCaptcha{
+    width:120%;
+    text-align: -webkit-center;
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+}
+/*.divFooterInscription{
+    padding-left:15px;
+    padding-bottom: 15%
+}*/
+.formOneInscri{
+    position: relative;
+}
+.cardStyleFormOne{
+    border-radius: 25px !important;
+    width: 55%!important;
+    margin:0 auto
+}
+
+.containerLike > #divLogowithDesc{
+    margin-top:165px
+}
+.containerLike {
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    margin-top: 81px;
+  }
+  
+  .containerLike > div {
+    width:50%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .formAlign>div>div>* {
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 16px;
+    padding: 5px 8px;
+    border-top: none;
+    border-left:none;
+    border-right: none
+}
+
+.formAlign{
+    margin: 0 auto;
+    width: 90%;
+}
+.pcontainer{
+    margin: 0 auto;
+    width: 65%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pStyle{
+    color:grey;
+    font-family:Roboto;
+    font-size:11px;
+    margin: 0 auto;
+    text-align: center
+}
+.divLogo{
+    margin:0 auto;
+    width:fit-content
+}
+
+.formAlign>div button.ButonFirstForm:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\F054';
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.formAlign>div button[type=submit]::before {
+    display: none;
+}
+.formAlign>div button[type=submit]:hover {
+    background-image: linear-gradient(#E31B28,#E31B28);
+}
+.formAlign>div button[type=submit] {
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(#E31B28,#E31B28);
+    border: 1px solid #E31B28;
+    font-family: Lato;
+    font-size: 15px;
+    width: 55%;
+    border-radius: 25px;
+}
+
+
+.DescriCarte{
+    color: white;
+    font-size: 30px;
+    font-family: BebasKai;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 45px;
+    width: 68%;
+    margin: 0 auto;
+}
+@media screen and (min-width:1025px){
+    .divFooterInscription{
+        padding-bottom: unset;
+        position: fixed;
+        left: 40px;
+        bottom: 0;
+    }
+}
+@media screen and (width:1024px){
+    .divFooterInscription{
+        text-align:center
+    }
+    .cardStyleFormOne {
+        width: 50%!important;
+    }
+    .containerLike {
+        flex-direction: column;
+      }
+      
+      .containerLike > div {
+        width:100%;
+        margin:unset
+      }
+      
+.containerLike > #divLogowithDesc{
+    margin-top:unset
+}
+.containerLike {
+    margin-top:unset
+  }
+}
+@media screen and (max-width:1023px){
+    .divFooterInscription{
+        text-align:center
+    }
+    .cardStyleFormOne{
+        width: 80%!important;
+    }
+    .containerLike {
+        flex-direction: column;
+      }
+      
+      .containerLike > div {
+        width:100%;
+        margin:unset
+      }
+      
+.containerLike > #divLogowithDesc{
+    margin-top:unset
+}
+.containerLike {
+    margin-top:unset
+  }
+
+
+.formAlign>div button[type=submit] {
+   margin:0 auto
+}
+}
+
+@media screen and (max-width:600px){
+.DescriCarte {
+    width: 95%;
+}
+}
+
+@media screen and (max-width:1024px) and (max-height:430px){
+    .formOneInscri{
+        height: auto;
+        padding-bottom: 3%!important;
+    }
+  }
+
+  @media screen and (max-width:1024px) and (max-height:830px){
+    .formOneInscri{
+        height: auto;
+        padding-bottom: 35%;
+    }
+  }
+  @media screen and (width:1024px) and (height:768px){
+    .formOneInscri{
+        height: auto;
+        padding-bottom: 16%;
+    }
+  }
+
+@media screen and (max-width:1024px) and (height:823px){
+    .formOneInscri {
+        height: auto;
+        padding-bottom: 55%;
+    }
+  }
+
+  @media screen and (max-width:1024px) and (height:812px){
+    .formOneInscri{
+        height: auto;
+        padding-bottom: 60%;
+    }
+  }
+
+@media screen and (max-width:400px){
+    .cardStyleFormOne{
+        width: 90%!important;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-height:1024px){
+    .formOneInscri{
+        height: auto;
+        padding-bottom: 60%;
+    }
+  }
+
+  @media screen and (max-width:1024px) and (min-height:1350px){
+    .formOneInscri{
+        height: auto;
+        padding-bottom: 75%;
+    }
+  }
+  @media screen and (width:1366px) and (height:1024px){
+    .formOneInscri{
+        height: auto;
+        padding-bottom: 30%;
+    }
+  }

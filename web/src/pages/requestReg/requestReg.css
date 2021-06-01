@@ -1,0 +1,213 @@
+
+
+@font-face {font-family: "BebasKai";
+  src: url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.woff2") format("woff2"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.woff") format("woff"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.svg#Bebas Kai") format("svg"); /* iOS 4.1- */
+}
+
+.ImgBack{
+  background-image: url("../../bg.png");
+  background-size: cover;
+  position: fixed;
+  top:0;
+  width:100%;
+  height:100vh;
+} 
+.btnFacebook { 
+  width: 165px;
+  height:35px;  
+  border-radius: 4px;
+  background: #3b5998;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  margin:5px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 25px;
+  width:40%;
+  display: inline-flex;
+}
+
+
+@font-face {font-family: "BebasKai";
+  src: url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.woff2") format("woff2"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.woff") format("woff"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("https://db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.svg#Bebas Kai") format("svg"); /* iOS 4.1- */
+}
+
+
+
+
+
+
+.fbstyle{
+  font-family: Lato;
+  color: white;
+  font-size: 15px;
+}
+.ButtonInscri{
+  border: 1px solid #E31B28 !important;
+  color: white !important;
+  background-color: #E31B28 !important;
+  border-radius: 25px!important;
+  width: 40%;
+}
+
+.Buttondejamenbre{
+  border: 1px solid white!important;
+  color: #E31B28!important;
+  width: 40%;
+  border-radius: 25px!important;
+  background-color: white!important;
+}
+
+.divContainer{
+  position: fixed;
+  width:100%
+}
+
+.BottomLeftLog{
+  position: fixed;
+  bottom: 8px;
+  left: 16px;
+} 
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 155px auto;
+  position: relative;
+  top: -90px;
+}
+  
+  .flex-container > div {
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+
+  .flex-container > div >p{
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    margin:0 auto;
+    font-family: "BebasKai";
+    text-transform: uppercase
+  }
+
+.inscfbStyle{
+  text-transform: uppercase;
+  font-size: 11px;
+  max-width: 167px;
+  min-width: 167px;
+  margin: 0 auto;
+  padding-top: 4px;
+}
+@media screen and (min-width:1025px){
+  .flex-container {
+    top: -7px;
+}
+.ButtonInscri {
+  width: 30%;
+}
+.btnFacebook{
+  width: 30%;
+}
+.Buttondejamenbre {
+  width: 30%;
+}
+}
+
+@media screen and (max-width:1024px){
+  .flex-container {
+    width: 90%;
+  }
+  
+}
+@media screen and (max-width:1023px){
+  .flex-container > div{
+    margin:0 auto
+  }
+  #inscri{
+    width: 100%;
+    /*margin-left: 21px;*/
+  }
+  .Buttondejamenbre{
+    width: 100%;
+  }
+  .btnFacebook{
+    width:100%
+  }
+  /*.divFooterInscription {
+    text-align: center;
+    margin-top: -100px;
+  }*/
+}
+@media screen and (min-width:756px) and (max-width:1023px){
+  .divFooterInscription {
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width:500px){
+  .flex-container {
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width: 320px){
+.flex-container {
+    margin: 50px auto;
+}
+}
+
+@media screen and (max-width:755px){
+  .divContainer {
+    position: relative;
+    padding-bottom: 15%
+}
+}
+
+
+
+@media screen and (max-width: 1023px){
+/*.BottomLeftLogBackground {
+    position: absolute;
+    line-height: 12px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+}*/
+#sloganFirstPage > div > .BottomLeftLogBackground {
+  position: absolute;
+  line-height: 12px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: fit-content;
+}
+}
+
+@media screen and (max-width: 500px){
+  #sloganFirstPage > div > .BottomLeftLogBackground {
+  bottom:unset
+  }
+}
+
+
+
+@media screen and (width:1024px){
+  .divFooterInscription , #footerReqReg{
+    margin-top:-128px
+  }
+}

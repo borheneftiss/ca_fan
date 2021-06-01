@@ -1,0 +1,141 @@
+
+.divfooter{
+    background-color: #E31B28;
+    height:50px;
+    width:100%;
+    position: absolute;
+    /*bottom: 0;*/
+    bottom:unset
+}
+
+.nouscontact{
+    text-decoration: none
+}
+.footerclass{
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+.pfooter{
+    color:white;
+    font-family: Lato;
+    font-weight: 400
+}
+
+.divright{
+    display: flex;
+    margin-right: auto;
+    padding-left: 25px;
+}
+
+.divInterm{
+    /*margin-left: 10%;
+    margin-right: 10%*/
+    margin-right: 25px;
+}
+
+.divLeft{
+    padding-right: 25px;
+}
+.pfooterbold{
+    color:white;
+    font-family: Lato;
+    font-weight: 400;
+    font-weight: bold
+}
+
+.posimgcopy{
+    align-self:center;
+    padding-right:5px;
+    height: 15px;
+}
+
+
+
+
+/*@media screen and (max-width:1024px){
+    .divfooter{
+        bottom: unset;
+    }
+}*/
+@media screen and (min-width:1025px){
+    .divfooter{
+        bottom: 0;
+    }
+}
+@media screen and (max-width:576px){
+    .divfooter{
+        background-color: #E31B28;
+        height:60px;
+        width:100%;
+        position: absolute;
+        bottom: unset;
+        padding-bottom: 125px;
+    }
+    .divfooter:after {
+        position: absolute;
+        top: -68px;
+        right: 0;
+        content:"";
+        height: 0; 
+        width: 100%;
+        border-right: 1000px solid #E31B28;
+        border-top: 140px solid transparent;
+    }
+    .footerclass{
+        display:flex;
+        flex-direction: column;
+    }
+    .divright {
+        padding-left: unset;
+        z-index:1;
+        margin: 0 auto;
+    }
+    .divInterm{
+        z-index:1;
+        padding-left: unset;
+        margin:0 auto
+    }
+    .divLeft{
+        z-index:1;
+        margin-left:unset;
+        padding-right:unset;
+        margin:0 auto
+    }
+}
+
+@media screen and (max-width:576px) and (max-height:750px){
+    .divfooter{
+        padding-bottom: 160px;
+    }
+}
+
+@media screen and (max-width:576px) and (min-height:751px) and (max-height:900px){
+    .divfooter{
+        padding-bottom: 220px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .divfooter{
+        bottom:0
+    }
+}
+
+@media screen and (min-width:695px) and (max-width:801px){
+    .pfooter{
+        font-size: 12px
+    }
+    .pfooterbold{
+        font-size: 12px
+    }
+}
+@media screen and (min-width:577px) and (max-width:694px){
+    .pfooter{
+        font-size: 10px
+    }
+    .pfooterbold{
+        font-size: 10px
+    }
+
+}

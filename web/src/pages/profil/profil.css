@@ -1,0 +1,153 @@
+.profilDiv
+{
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+
+.inputContent{
+    margin: 0 auto;
+    display: flex;
+    width: 65%;
+    transition: none;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.iu-button-container .iu-button-button{
+    background-image: url("../../assets/profil/avatar.png") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+/*.iu-pseudobuttonContent{
+    display: none !important
+} */
+.iu-imgPreview {
+    border: unset !important
+}
+.iu-button-container.loading .iu-button-button{
+    width: 100% !important
+}
+.iu-dropzone{
+    border-width: 0px!important
+}
+/*svg{
+   fill: transparent !important 
+}
+*/
+.inputContent>div>label{
+    color : black !important;
+    font-weight: 600 !important; 
+    line-height: 3 !important; 
+    font-size: 25px !important; 
+    font-family: 'Amatic SC', cursive !important; 
+}
+.MuiFormLabel-root-16.MuiFormLabel-focused-17{
+    color : black !important
+}
+input:required {
+    box-shadow:red !important
+}
+.inputContent>div>div>input{
+   
+    margin-left: 150px !important; 
+}
+.MuiFormLabel-root-16{
+    font-weight: 600 !important; 
+    line-height: 3 !important; 
+    font-size: 25px !important; 
+    font-family: 'Amatic SC', cursive !important; 
+    color : black !important; 
+}
+.MuiInput-underline-27:after {
+    border-bottom: 2px solid black !important
+}
+.nameProfil{
+    font-size: 30px !important; 
+    font-family: 'Amatic SC', cursive !important; 
+    color : black !important;  
+    font-weight: 600;
+    margin-top: 15px;
+}
+.btnValider{  
+    border: 2px solid #e31B28;
+    width: max-content;
+    padding: 5px 20px;
+    background-color: #e31B28;
+    color: white;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive ; 
+    border-radius: 40px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .profilDiv
+    {
+        margin-top: 100px;
+    }
+    .inputContent{
+        margin: 0 auto;
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+    .btnValider {
+        font-size: 22px;
+    }
+    .MuiInputBase-input-46 {
+        margin-left: 120px !important;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .middle {
+        display: none
+       }
+}
+
+
+
+@media screen and (min-width:769px){
+    #profilimg{
+        width:fit-content;
+        margin:0 auto
+    }
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    
+      }
+      
+      #profilimg:hover .image {
+        opacity: 0.3;
+      }
+      
+      #profilimg:hover .middle {
+        opacity: 1;
+      }
+      
+      .texter {
+        font-size: 16px;
+        padding-bottom: 144px
+      }
+}

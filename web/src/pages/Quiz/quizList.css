@@ -1,0 +1,137 @@
+.gridQuizs{
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 95%;
+    /*display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+      justify-content: space-between;*/
+    /*display: table;
+    border-collapse: separate;
+    table-layout:fixed;
+    vertical-align: middle;*/
+   
+  
+    border-spacing: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+  }
+.QuizsText{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    width: 95%;
+    margin: 0 auto;
+}
+.ColQuizs{
+  width: 18%;
+  background-color: white;
+  color: #E31B28;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-decoration: none;
+  /*display: flex;
+  flex-direction: column;*/
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  /*display: table-cell;*/
+  cursor: pointer;
+  z-index: 0;
+  transition: .3s; 
+  border: 1px solid #E31B28;
+  border-radius: 20px;
+}
+.QuizAnswered{
+  background-color: #E31B28 !important;
+  color: white!important;
+}
+.QuizDesactive{
+  background-color: #d3d3d3 !important;
+  color: white!important;
+  border: 2px solid #d3d3d3 !important;
+}
+.quizsName{
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  font-family: 'Amatic SC', cursive;
+  word-break: break-all;
+  font-size: 30px;
+  text-transform: capitalize;
+  line-height: 45px;
+  font-weight: 600;
+}
+.equalHMVWrap {
+  max-width: 900px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  width: 95%;
+}
+.eqWrap {
+	display: flex;
+}
+.equalHMV {
+	width: 23%;
+	margin: 2%;	
+}
+.eq {
+  min-height: 170px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 0;
+  background-color: white;
+  color: #E31B28;
+  transition: .3s; 
+  border: 1px solid #E31B28;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+
+  @media screen and (max-width:576px){
+    .equalHMV {
+      width: 45%;
+      margin: 2%;	
+    }
+    .quizsName {
+      font-size: 25px;
+    }
+    .equalHMVWrap{
+      width: 80%;
+    }
+    .QuizsText{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .ColQuizs{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 45%;
+      /*z-index: 9999;*/
+      margin-bottom: 10px; 
+    }
+    .gridQuizs{
+      width: 80%;
+      padding-bottom: 150px;
+    }
+   
+    }
+
+@media screen and (max-width:768px){
+  .imgquizstyle{
+    padding-top:70px
+  }
+}
+    

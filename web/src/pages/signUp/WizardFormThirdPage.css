@@ -1,0 +1,435 @@
+.containerLikeThriForm > #divLogowithDesc{
+  margin-top:165px
+}
+.containerLikeThriForm {
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.containerLikeThriForm > div {
+  width:50%;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+
+.formThirdInscri{
+  position: relative;
+}
+.cartethirdFormInscri{
+  border-radius: 25px!important;
+  margin-top: -24px;
+}
+.divCardThirdForm{
+  width: 41%;
+  margin-left: 50%;
+  margin-right:110px;
+  margin-top: 122px;
+  position:absolute;
+  z-index:2
+}
+
+.flex-containerthird{
+    display: flex;
+    margin-left: auto;
+    margin-top: 6%;
+  }
+  
+  .flex-containerthird > div {
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 17px;
+  }
+
+  .flex-containerIntern {
+    display: flex;
+    flex-direction: column;
+    border:0;
+    height: 310px;
+  }
+  
+  .flex-containerIntern > div {
+    width: 100%;
+    margin: 10px;
+    color:darkgray;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -2%;
+  }
+
+  #circle {
+    width: 100px;
+    height: 100px;
+    background: #E02A3F;
+    border-radius: 50%;
+    padding-top: 25px;
+    margin: 0 auto;
+  }
+
+  
+.ptitleThird{
+    color:#393939;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.psoustitle{
+    color:#393939;
+    /*margin-top:-8%;*/
+    font-family:Roboto;
+    line-height: 20px;
+}
+
+.psoustitlePaiement{
+  color: #393939;
+  font-family: Roboto;
+  /*margin-top: -15%*/
+  line-height: 20px;
+}
+
+
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+  .radio-item input[type=radio]:checked ~ label {
+    color: #E02A3F;
+  }
+  
+  .labelStyle  .radio-item {
+      color: #393939;
+      font-weight: bold;
+      font-size: 15px
+  }
+
+  .labelStyle  .radio-item:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 11px;
+    border: 2px solid #E02A3F;
+    background-color: transparent;
+  }
+
+  .labelStyle .radio-item:after {
+    border-radius: 11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    content: " ";
+    display: block;
+    background: #E02A3F;
+  }
+
+  .radio-item input[type=radio]:checked + .labelStyle .radio-item:after {
+    border-radius: 11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: " ";
+    display: block;
+    background: #E02A3F;
+  }
+
+  .radio-item input[type=radio]:checked + .radio-item:after {
+    border-radius: 11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: " ";
+    display: block;
+    background: #E02A3F;
+  }
+
+
+
+  .radio-item label {
+    color: #393939;
+    font-weight: bold;
+    font-size: 15px
+  }
+  
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 11px;
+    border: 2px solid #E02A3F;
+    background-color: transparent;
+  }
+  
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    content: " ";
+    display: block;
+    background: #E02A3F;
+  }
+
+  .ButtonThirdForm{
+    background: #E31B28 !important;
+    width: 30% !important;
+    border: 1px solid #E31B28 !important;
+    border-radius: 25px!important;
+    font-family: Lato;
+    font-size: 15px!important;
+    margin: 0 auto
+  }
+
+
+  .FormulaireTrois>div button.ButtonThirdForm:before {
+    display: none;
+}
+
+.FormulaireTrois>div button.previous:before {
+  content: '\F053';
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+.FormulaireTrois>div button.ButtonThirdForm:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\F054';
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.positionRadioMode{
+  text-align: left;
+  line-height: 25px
+}
+
+.divButtonPrevAndNext{
+  margin-top: 8%;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (width:1024px){
+  .containerLikeThriForm {
+      flex-direction: column;
+    }
+    
+    .containerLikeThriForm > div {
+      width:100%;
+      margin:unset
+    }
+    
+.containerLikeThriForm > #divLogowithDesc{
+  margin-top:unset
+}
+.containerLikeThriForm {
+  margin-top:unset
+}
+}
+@media screen and (max-width:1023px){
+  .containerLikeThriForm {
+      flex-direction: column;
+    }
+    
+    .containerLikeThriForm > div {
+      width:100%;
+      margin:unset
+    }
+    
+.containerLikeThriForm > #divLogowithDesc{
+  margin-top:unset
+}
+.containerLikeThriForm {
+  margin-top:unset
+}
+}
+
+@media screen and (max-width:1024px){
+  .cartethirdFormInscri{
+    margin-top: unset;
+  }
+}
+
+/*@media screen and (max-width:1024px) and (max-height:900px){
+  .formThirdInscri{
+    height: auto;
+    padding-bottom: 6%;
+  }
+}*/
+
+@media screen and (max-width:1024px) and (max-height:830px){
+  .formThirdInscri{
+      height: auto;
+      padding-bottom: 35%;
+  }
+}
+@media screen and (width:1024px) and (height:768px){
+  .formThirdInscri{
+      height: auto;
+      padding-bottom: 16%;
+  }
+}
+
+@media screen and (max-width:1024px) and (height:823px){
+  .formThirdInscri {
+      height: auto;
+      padding-bottom: 53%;
+  }
+}
+
+@media screen and (max-width:1024px) and (height:812px){
+  .formThirdInscri{
+      height: auto;
+      padding-bottom: 55%;
+  }
+}
+@media screen and (max-width:1024px) and (min-height:1024px){
+  .formThirdInscri{
+      height: auto;
+      padding-bottom: 55%;
+  }
+}
+
+@media screen and (max-width:1024px) and (min-height:1350px){
+  .formThirdInscri{
+      height: auto;
+      padding-bottom: 75%;
+  }
+}
+
+
+@media screen and (width:1366px) and (height:1024px){
+  .formThirdInscri{
+      height: auto;
+      padding-bottom: 35%;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .divCardThirdForm {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 270px;
+  }
+  #slogandivThirdForm{
+    bottom: -60%;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  .FormulaireTrois>div {
+    flex-flow: column;
+}
+.flex-containerthird > div {
+  width: 100%;
+  margin: 0 auto;
+}
+.psoustitle {
+  margin-top: unset; 
+  line-height: 15px;
+}
+.psoustitlePaiement{
+  margin-top: unset;
+  line-height: 15px;
+}
+.positionRadioMode{
+  text-align: left
+}
+#buttonprevios{
+  margin:0 auto;
+  margin-bottom: 12px;
+}
+.ButtonThirdForm{
+  margin:0 auto;
+  margin-top: 10px!important
+}
+.divButtonPrevAndNext{
+  margin-top: 110px
+}
+
+#slogandivThirdForm > div > .BottomLeftLogBackground {
+  bottom: -60%;
+}
+
+}
+
+
+@media screen and (max-width:500px){
+  .divCardThirdForm {
+    width: 80%;
+    margin-left: 10%;
+}
+  .divButtonPrevAndNext{
+    margin-top: 150px
+  }
+  #slogandivThirdForm > div > .BottomLeftLogBackground {
+    bottom: -70%;
+  }
+  .ButtonThirdForm{
+    width:40%!important
+  }
+  #buttonprevios{
+    width:40%!important
+  }
+}
+
+@media screen and (max-width:360px){
+  #slogandivThirdForm > div > .BottomLeftLogBackground {
+    bottom: -88%;
+  }
+}
+@media screen and (width:375px){
+  #slogandivThirdForm > div > .BottomLeftLogBackground {
+    bottom: -80%;
+  }
+}
+
+@media screen and (width:320px){
+  #slogandivThirdForm > div > .BottomLeftLogBackground {
+    bottom: -117%;
+}
+}
+
+
+
+
+
+
+

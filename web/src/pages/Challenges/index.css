@@ -1,0 +1,135 @@
+body{
+    background-image: unset ;
+    
+  }
+.challengesTxt{
+  text-align: center;
+  line-height: 40px;
+  margin-top: -10px;
+  }
+.pointText {
+    color: black;
+    font-weight: 700;
+    font-size: 42px;
+    font-family: 'Amatic SC', cursive;
+}
+.collectText {
+  font-family: 'Amatic SC', cursive;
+  color: #E31B28;
+  font-size: 35px;
+  font-weight: 600;
+}
+.winText{
+  color: #666;;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+}
+
+.imgGame5{
+  width: 70%;
+  margin-top: 17px;
+}
+.imgGame2{
+  width: 55%;
+  margin-top: 22px;
+}
+.imgGame4{
+  width: 70%;
+  margin-top: 25px;
+}
+.imgGame1{
+  width: 45%;
+  margin-top: 21px;
+}
+.imgGamechal {
+  width: 70%;
+  margin-top: 22px;
+}
+.ColChallenge{
+  width: 18%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 0;
+  transition: .3s; 
+}
+.ColChallenge-Top{
+  border: 2px solid #E31B28;
+  border-top-left-radius : 20px;
+  border-top-right-radius : 20px;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+}
+.ColChallenge-Bottom{
+  border: 2px solid #E31B28;
+  border-bottom-left-radius : 20px;
+  border-bottom-right-radius : 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: #E31B28;
+  font-family: 'oswald', cursive ;
+}
+
+.gridChallenge{
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  max-width: 1000px;
+  justify-content: space-between;
+  position: relative;
+}
+@media screen and (max-width:576px){
+  .challengesTxt {
+    padding: 0px 10px;
+    margin-top: 80px;
+    line-height: 27px;
+}
+.ColChallenge{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  /*z-index: 9999;*/
+  margin-bottom: 10px; 
+}
+.gridChallenge{
+  width: 70%;
+  padding-bottom: 150px;
+}
+.ColChallenge-Top{ 
+  height: 120px;
+}
+.pointText {
+  font-size: 25px
+}
+.collectText {
+  font-size: 22px;
+}
+.winText {
+  font-size: 22px;
+}
+}
+
+
+@media screen and (max-width:768px){
+  .challengesTxt{
+    margin-top: 100px;
+  }
+}

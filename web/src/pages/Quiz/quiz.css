@@ -1,0 +1,404 @@
+
+.btnJouer {
+    border: 1px solid #E31B28 !important;
+    border-radius: 160px !important;
+    width: 160px;
+    height: 160px;
+    text-decoration: none !important;
+    background-color: #E31B28 !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    color : white !important;
+    font-family: 'Moon Flower', cursive !important;
+    font-size: 30px !important;
+    margin-top: 50px !important;
+    margin-bottom: 150px !important;
+}
+
+.headerGame{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0px;
+    width: 98%;
+  
+}
+.HeaderRight{
+    display: flex;
+    flex-direction: column;
+}
+.Headertxt{
+    color : #E31B28;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.CaSlogan{
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    margin-top: 8px;
+}
+.caRS{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.imgMob{
+    height: 35px;
+    width: 35px;
+}
+.caRSimg{
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 4px;
+}
+.smallIcons{
+   width: 30%;
+   margin-right: auto;
+   margin-left: auto;
+}
+.next{
+    width:10px;
+    margin-left: 35px
+}
+.prev{
+    width:10px;
+}
+.GameText{
+    color : #333333;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.winTxt{
+    color: #E31B28;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.quizIcons{
+    width: 20%;
+    margin-bottom: 20px;
+    margin-top: -60px;
+
+}
+.startG{
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+}
+.questionDiv {
+    width: 65%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: 2px solid #E31B28;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 140px;
+}
+.responseDiv {
+    width: 65%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: 2px solid #E31B28;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 120px;
+}
+.fan{
+    justify-content: space-between;
+    display: flex;
+    /*width: 20%; avec ballon */
+    width: max-content;
+    margin: 20px auto;
+}
+
+.questionContent {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid #E31B28;
+    background-color: #E31B28;
+    border-radius: 40px;
+    font-family: 'Cairo', sans-serif;
+    padding-top: 12px;
+    color: white;
+    font-size: 23px;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.btnfan{
+    border: 2px solid #E31B28;
+    background-color: #E31B28;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 5px 20px 5px;
+    justify-content: space-around;
+}
+.fanImg{
+    width: 25px;
+    height: 25px;
+    vertical-align: -webkit-baseline-middle;
+}
+.gridQuestion{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    max-width: 900px;
+    justify-content: space-between;
+}
+.Colquestion{
+    width: 48%;
+    min-height: 60px !important;
+    margin-bottom: 20px !important;
+    background-color: white ;
+    border: 1px solid #E31B28 ;
+    border-radius : 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #E31B28 ;
+    font-size: 20px !important;
+    align-items: center !important;
+    font-family: oswald !important;
+    justify-content: center !important;
+    z-index: 0;
+    transition: .3s;    
+}
+.activeAnswer{
+    background-color: #E31B28 !important ;
+    color : white !important
+}
+.NotActiveAnswer{
+    background-color: white ;
+    color : #E31B28
+}
+.headerGamemobile{
+    display: none;
+}
+.Count{
+    font-size: 25px;
+    color: white;
+    font-family: oswald;
+}
+.questionsDiv{   
+    padding-bottom: 20px;
+}
+.styles_closeIcon__1QwbI {
+    display: none !important;
+}
+.playQuiz{
+    background-image: url("../../assets/quiz/questions/bgga.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+.clock{
+   width: 60px;
+   margin-bottom: -50px;
+}
+.Countdown{
+    width: min-content;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.quizLogo{
+    width: 16%;
+     margin-top: -110px   
+}
+.fanMob{
+    display: none
+}
+.gridQuiz{
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    max-width: 900px;
+    justify-content: space-between;
+  }
+.gridResponse{
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    max-width: 900px;
+    justify-content: space-between;
+}
+.btncontinue{  
+    border: 2px solid #e31B28;
+    width: max-content;
+    padding: 5px 20px;
+    color: #e31B28;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 40px;
+    margin: 30px auto;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+}
+.btncontinue:hover{  
+    border: 2px solid white;
+    color: white;
+    background-color: #e31B28;
+}
+.styles_modal__gNwvD{
+    border-radius: 30px!important;
+}
+.startQuiz{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.cupQuiz{
+    width: 60px;
+    margin: 0 auto;
+}
+.statesWin{
+    color: #393939;
+    font-family: oswald;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.statesPoints{
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.modalContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.classAnswer{
+    color : #e31B28  !important;
+    background-color: #d3d3d3 ;
+    border: none
+ 
+}
+.classRight{
+    color : white  !important;
+    background-color: #e31B28  !important;
+}
+/*@media screen and (max-width:576px){*/
+@media screen and (max-width:768px){
+    .questionsDiv{   
+        padding-top: 75px;
+    }
+    #playQuiz {
+        margin-top: -70px;
+    }
+    .questionContent{
+        font-size: 16px;
+    }
+    .btnfan{
+        border-top-left-radius : 40px !important;
+        border-bottom-left-radius : 40px !important;
+        border-top-right-radius : 0px !important;
+        border-bottom-right-radius : 0px !important;
+        margin-bottom: 8px;
+        padding: 5px 15px 5px;
+        font-size: 18px;
+        font-family: oswald;
+    }
+    .fan{
+        display: none
+    }
+    .fanMob{
+        justify-content: space-between;
+        display: none;
+        margin-right: -20px;      
+        width: max-content;
+    }
+    .gridQuiz{
+        width: 80%;
+    }
+    .gridResponse{
+        width: 80%;
+    }
+    .questionDiv {
+        width: 85%;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+    .responseDiv{
+        width: 85%;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+    .quizLogo{
+        width: 35%;
+        margin-top: 105px;
+    }
+    .headerGamemobile{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin: 30px auto 0px;
+        width: fit-content;
+        position: fixed;
+        top: -6px;
+        right: 15px;
+    }
+    #startgame{
+        position: relative;
+        top:-80px
+    }
+
+    .Colquestion{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100px !important;
+      /*z-index: 9999;*/
+      margin-bottom: 10px; 
+    }
+    .gridQuestion{
+      width: 80%;
+    }
+    .headerGame{
+        display: none;
+    }
+    .GameText{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .winTxt{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .quizIcons {
+        width: 50%;
+        margin-top: 30px;
+    }
+    .btnJouer {
+        border-radius: 140px !important;
+        width: 140px;
+        height: 140px;
+        font-size: 28px !important; 
+    }
+}
+  
+
+@media screen and (max-width:900px){
+    #divquiztext{
+        margin-top:150px
+    }
+}

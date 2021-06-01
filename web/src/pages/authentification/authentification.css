@@ -1,0 +1,161 @@
+.btnConnecter{
+  border: 1px solid #E02A3F!important;
+  color:white!important;
+  margin-left:10%!important;
+  background-color:#E02A3F!important
+} 
+
+
+.titleAuthPage {
+    /*text-align:center;
+    color:#282c34;
+    font-family:Roboto*/
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(40, 44, 52);
+    text-align: center;
+    text-transform: uppercase
+  }
+
+  .containerAuthentif{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 160px;
+  }
+  .containerAuthentif > div {
+    width:50%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .containerAuthentif > #divLogowithDesc{
+    margin-top:65px
+}
+
+
+  .divArabLog{
+    padding-top: 90px;
+    margin-left: 16px;
+  }
+  .cardAuthStyle{
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius:25px!important;
+    width:60%;
+    margin: 0 auto;
+  }
+
+  .buttonConnexionpos{
+    padding-top: 15%;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .FormAuthentif{
+    position: relative
+  }
+
+@media screen and (max-width:1024px){
+  .containerAuthentif > div {
+    width:100%;
+    margin:unset
+  }
+  .divArabLog {
+    padding-top: 50px;
+    margin-left: 16px;
+    padding-bottom: 25px;
+}
+  .containerAuthentif > #divLogowithDesc {
+    margin-top: unset;
+  }
+  .cardAuthStyle {
+    width: 45%;
+}
+.containerAuthentif{
+  margin-top: unset;
+  flex-direction: column;
+}
+.containerAuthentif > div {
+  width:100%;
+}
+}
+
+@media screen and (max-width:600px){
+  .cardAuthStyle {
+    width: 60%;
+}
+}
+
+
+@media screen and (max-width:450px){
+    .cardAuthStyle {
+      width: 80%;
+  }
+}
+/*@media screen and (width:411px){
+  .FormAuthentif{
+    position: relative;
+    height:900px;
+  }
+}*/
+
+@media screen and (min-width:1025px){
+  .FormAuthentif > .divFooterInscription {
+      margin-top: 100px;
+  }
+  }
+
+
+
+  @media screen and (max-width:1024px) and (max-height:830px){
+    .FormAuthentif{
+        height: auto;
+        padding-bottom: 35%;
+    }
+  }
+  @media screen and (width:1024px) and (height:768px){
+    .FormAuthentif{
+        height: auto;
+        padding-bottom: 16%;
+    }
+  }
+  
+  @media screen and (max-width:1024px) and (height:823px){
+    .FormAuthentif {
+        height: auto;
+        padding-bottom: 55%;
+    }
+  }
+  
+  @media screen and (max-width:1024px) and (height:812px){
+    .FormAuthentif{
+        height: auto;
+        padding-bottom: 55%;
+    }
+  }
+  
+  @media screen and (max-width:1024px) and (min-height:1024px){
+    .FormAuthentif{
+        height: auto;
+        padding-bottom: 55%;
+    }
+  }
+  
+  @media screen and (max-width:1024px) and (min-height:1350px){
+    .FormAuthentif{
+        height: auto;
+        padding-bottom: 75%;
+    }
+  }
+  
+  
+  
+  @media screen and (width:1366px) and (height:1024px){
+    .FormAuthentif{
+        height: auto;
+        padding-bottom: 32%;
+    }
+  }
